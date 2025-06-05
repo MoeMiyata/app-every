@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+
+.Header {
+  display: flex;
+  height: 60px;
+  color: white;
+  background: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.Setting {
+  background-color: #f8f8f8;
+  margin: auto;
+  margin-top: 75px;
+  margin-bottom: 80px;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 8px 8px #aaaaaa;
+  width: 700px;
+}
+
+.Str {
+  margin: 20px;
+}
+
+.Answer {
+  margin: 50px;
+}
+
+.AnswerButton {
+  color: #fafafa;
+  background-color: #3a3a3a;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    color: #000000;
+    background-color: #f8f8f8;
+    border: 1px solid black;
+  }
+}
+
+
+input {
+  padding: 5px;
+}
